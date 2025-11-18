@@ -6,6 +6,10 @@
 
 .header-fill {
   font-family: "Inter", sans-serif;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 
   background-color: #f3ebf9;
   padding-block: rem(16);
