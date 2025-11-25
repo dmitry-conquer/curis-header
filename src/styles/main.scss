@@ -11,8 +11,14 @@
   top: 0;
   width: 100%;
 
-  background-color: #f3ebf9;
+  // background-color: #f3ebf9;
+  background-color: transparent;
   padding-block: rem(16);
+  transition: all 0.3s ease;
+
+  &.header-fill-scrolled {
+    background-color: #f3ebf9;
+  }
 
   &__container {
     max-width: rem(1640);
